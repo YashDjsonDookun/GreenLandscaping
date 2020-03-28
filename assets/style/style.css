@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #253832;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo img {
+    width: 305px;
+    height: 93px;
+    margin-left: 35px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+nav .pageLinks {
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    align-self: center;
+    padding: 46px;
+}
+
+nav ul li a:hover{
+    background-color: #940000;
+    cursor: pointer;
+}
+
+img {
+    width: 452px;
+    height: 272px;
+    margin-bottom: 35px;
+}
+
+form {
+    background-color: #940000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    padding: 0px 0px 18px 0px;
+}
+
+form input {
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    height: 56px;
+}
+
+form input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.31);
+    background-color: #940000;
+}
+
+form h1, form h3 {
+    background-color: #940000;
+}
+
+form input[type="text"] {
+    background-color: #940000;
+    border: none;
+    font-size: 18px;
+}
+
+form input[type="submit"] {
+    height: 66px;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+section.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.title .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.title .bar span {
+    background-color: #940000;
+    height: 2px;
+    width: 620px;
+}
+
+section.title h1 {
+    margin: 0px 6px;
+    white-space: nowrap;
+}
+
+.project {
+    width: 453px;
+    padding-bottom: 86px;
+}
+
+.project h1 {
+    padding: 18px 0px;
+    font-size: 35px;
+    color: #940000;
+}
+
+.project p {
+    font-size: 20px;
+}
+
+section.main {
+    margin-top: 67px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #253832;
+    color: white;
+    height: 94px;
+    font-size: 13px;
+    display: flex;
+}
+
+.footerContent {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactLinks ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.contactLinks ul li a img {
+    width: 69px;
+    height: 63px;
+}
+
+.contactLinks ul li {
+    width: 69px;
+    height: 63px;
+}
+
+button#editProject, button#addProject {
+    width: 130px;
+    height: 55px;
+}
+form#controlPanelForm {
+    width: 1427px;
+    height: 362px;
+    margin-bottom: 40px;
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    color: #fff;
+    margin-right: 36px;
+}
+input#title, input#thumbnail, input#description {
+    border: solid 2px #fff;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 9px;
+    width: 273px;
+}
+
+input#addBtn {
+    margin: 40px;
+}
+
+button {
+    width: 530px;
+    height: 135px;
+    font-size: 29px;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: solid 3px #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #940000;
+}
+
+input#addEmail, input#confirmEmail {
+    border: solid 1px rgba(255, 255, 255, 0.31);
+    padding: 6px;
+    text-decoration: underline;
+    height: 38px;
+    margin-bottom: 11px;
+}
+input#addEmail::placeholder, input#confirmEmail::placeholder {
+    text-decoration: underline rgba(255, 255, 255, 0.31);
+}
